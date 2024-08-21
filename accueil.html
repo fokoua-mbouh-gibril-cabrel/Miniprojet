@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="accueil.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img  class="logo" src="C:\Users\Donald\Desktop\projet html\miniprojet\imagePojet\IMG-20240319-WA0011.jpg" alt="">
+        <nav>
+            <ul>
+                <li><a href="">accueil</a></li>
+                <li><a href="#template">template</a></li>
+                <li><a href="#fin">contact</a></li>
+            </ul>
+        </nav>
+        <!-- corps du menue deroulant-->
+        <button class="amburger">&#9776;</button>
+
+        <div class="bodyAmburger">
+            <button class="sup">x</button>
+            <nav>
+                <ul>
+                    <li><a href="">accueil</a></li>
+                    <li><a href="#template">template</a></li>
+                    <li><a href="#fin">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <article>
+        <div class="contentImage">
+           <div>
+            <span class="motEntete">
+               Creer un cv n a jamais ete aussi facile
+            </span>
+           </div>
+           <button class="bouton1">connect you</button>
+         <!-- structure du formulaire cacher-->  
+        <form action="" class="formulaire">
+            <input type="text" placeholder="Adresse" required>
+            <input type="password" placeholder="Passeword" required>
+            <input type="submit" value="Envoye" class="envoie"><br>
+            <span>Creer un<a href="compte.html">Compte</a></span>
+        </form>
+        </div>
+
+        <!-- structure des templates-->  
+        <div class="contentTemplate" id="template">
+            <div class="template1">
+                <a href="cvJunior.html"><div class="image"></div></a>
+                <span>cv pour debutant</span> <br>
+                <a href="cvJunior.html"><button>choisir</button></a>
+            </div>
+            <div class="template2">
+                <a href="cvJunior.html"><div class="image"></div></a>
+                <span>cv pour junior</span><br>
+                <a href="cvJunior.html"><button>choisir</button></a>
+            </div>
+            <div class="template3">
+                <a href="cvJunior.html"><div class="image"></div></a>
+                <span>cv pour senior</span><br>
+                <a href="cvJunior.html"><button>choisir</button></a>
+            </div>
+        </div>
+    </article>
+    <!-- structure du footer-->  
+    <footer>
+        <div class="foter" id="fin">
+            <div>
+                <span>legislation</span> <br><br>
+                politique de remboussement <br> 
+                politique de retour <br>
+                politique de confidentialite <br>
+                politique de condition generale de vente <br>
+                et d utilisation <br>
+            </div>
+            <div>
+                <span>Contacter nous</span><br><br>
+                <!-- 
+                    <label for="">nom de l utilisateur</label>
+                    <input type="text" placeholder="nom" required>
+                    <label for="">adresse</label>
+                    <input type="text" placeholder="adresse" required>
+                -->  
+            </div>
+            <div>
+                <span>entreprise</span> <br><br>
+                <h2> EIS-innovation</h2><br>
+                <span class="number">
+                    012-6532-568-9746 <br>
+                    012-6532-569-9748
+                 </span>
+            </div>
+        </div>
+     </footer>
+     <script src="accueil.js"></script>
+</body>
+</html>
